@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{c8bec84f-e33d-4c63-8dd6-589bf78f6e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external sources">
+      <UniqueIdentifier>{ff306f76-acee-4dba-8085-01e3269b1f8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gtest_main.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BigInteger\BigInteger.cpp">
+      <Filter>external sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BigInteger\BigInteger.h">
+      <Filter>external sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
